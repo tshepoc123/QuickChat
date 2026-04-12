@@ -10,7 +10,7 @@ package com.mycompany.quickchat;
  */
 import java.util.Scanner;
 
-
+// Final submission version - Part 1 completed
 public class QuickChat {
 
     public static void main(String[] args) {
