@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class QuickChat {
 
     public static void main(String[] args) {
+        // ChatApp project initialized
 
         Scanner input = new Scanner(System.in);
         Login login = new Login();
