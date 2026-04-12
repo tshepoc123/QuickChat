@@ -77,6 +77,7 @@ public class Login {
     }
 
     // ---------------- LOGIN USER ----------------
+    // Login verification completed
     public boolean loginUser(String userName, String password) {
         return this.userName.equals(userName)
                 && this.password.equals(password);
