@@ -40,3 +40,13 @@ JUnit tests were implemented to verify:
 
 Run tests:
 Right-click project → **Test**
+
+## References
+
+Oracle. (2024). *Java Documentation*. Available at: https://docs.oracle.com
+
+JUnit Team. (2024). *JUnit 5 User Guide*. Available at: https://junit.org
+
+Stack Overflow Community. (2024). *Programming discussions and solutions*. Available at: https://stackoverflow.com
+
+OpenAI. (2026). *ChatGPT – Programming assistance and debugging support*. Available at: https://chat.openai.com
