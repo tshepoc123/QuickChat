@@ -48,12 +48,13 @@ public class Login {
     }
 
     // ---------------- REGISTER USER ----------------
+    // User registration functionality added
     public String registerUser(String userName,
                                String password,
                                String cellPhone,
                                String firstName,
                                String lastName) {
-// User registration functionality added
+    // Username validation implemented
         if (!checkUserName(userName)) {
             return "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters in length.";
         }
