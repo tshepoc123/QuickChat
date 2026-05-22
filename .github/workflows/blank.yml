@@ -2,7 +2,8 @@ name: Java CI with Maven
 
 on:
   push:
-   branches: [ "main" ]
+    branches: [ "main" ]
+
   pull_request:
     branches: [ "main" ]
 
@@ -10,6 +11,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: QuickChat
 
     steps:
     - uses: actions/checkout@v4
@@ -22,5 +27,4 @@ jobs:
         cache: maven
 
     - name: Build and Run Tests
-  run: mvn clean test
-  working-directory: QuickChat
+      run: mvn clean test
